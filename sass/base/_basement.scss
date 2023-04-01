@@ -1,0 +1,44 @@
+.basement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .basement__info {
+    a {
+      text-decoration: none;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 20px;
+      color: inherit;
+    }
+  
+    li {
+      margin-bottom: 14px;
+    }
+  }
+  
+  .basement__icons {
+    a {
+      padding-right: 30px;
+    }
+  }
+  
+  .figma {
+    display: flex;
+  
+    a {
+      text-decoration: underline;
+      margin-left: 4px;
+    }
+  
+  }
+  
+  .basement__icon__li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 23px;
+  }

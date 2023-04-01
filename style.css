@@ -377,4 +377,96 @@ p {
 
 .price__price {
   color: rgb(144, 64, 64);
+}
+
+.contacts {
+  margin-top: 151px;
+}
+.contacts h1 {
+  text-align: center;
+}
+
+.contacts__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 67px;
+}
+
+.form li {
+  margin: 0px 0px 13px 58px;
+}
+.form input {
+  font-family: "IM FELL English";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  padding-left: 19px;
+  padding-right: 10px;
+}
+.form input::-moz-placeholder {
+  color: black;
+}
+.form input::placeholder {
+  color: black;
+}
+
+.contacts__input {
+  width: 417px;
+  height: 61px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.contacts__input__big {
+  width: 417px;
+  height: 124px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.contacts__button {
+  margin-left: 158px;
+  margin-top: 58px;
+}
+
+.basement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basement__info a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: inherit;
+}
+.basement__info li {
+  margin-bottom: 14px;
+}
+
+.basement__icons a {
+  padding-right: 30px;
+}
+
+.figma {
+  display: flex;
+}
+.figma a {
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+.basement__icon__li {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 23px;
 }/*# sourceMappingURL=style.css.map */
