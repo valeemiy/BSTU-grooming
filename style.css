@@ -277,4 +277,104 @@ p {
   left: 50%;
   margin-left: -3px;
   top: 114px;
+}
+
+.masters {
+  margin-top: 126px;
+  margin-bottom: 26px;
+}
+.masters h1 {
+  text-align: center;
+}
+
+.masters__row {
+  height: 566px;
+  position: relative;
+  margin-top: 27px;
+  display: flex;
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+.master__text {
+  width: 296px;
+  position: absolute;
+  top: 97px;
+  right: 47px;
+}
+.master__text p {
+  text-align: center;
+}
+
+.ours__masters__img {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 592px;
+}
+
+.video {
+  margin-top: 66px;
+}
+.video h1 {
+  text-align: center;
+}
+
+.video__img video {
+  width: 900px;
+  height: 500px;
+  padding: 62px;
+}
+
+.price {
+  margin-top: 54px;
+  position: relative;
+}
+.price h1 {
+  text-align: center;
+}
+
+.price__button__row {
+  right: 46px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.price__blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 27px;
+  margin-top: 73px;
+  padding-left: 37px;
+}
+
+.price__block {
+  background-color: rgb(217, 217, 217);
+  width: 217px;
+  height: 441px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.icon__text__price {
+  align-items: center;
+}
+.icon__text__price img {
+  width: 80px;
+  padding: 32px 69px 35px 69px;
+}
+.icon__text__price h2 {
+  text-align: center;
+}
+
+.price__column {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 14px 0px 14px;
+  margin-top: 34px;
+}
+
+.price__price {
+  color: rgb(144, 64, 64);
 }/*# sourceMappingURL=style.css.map */

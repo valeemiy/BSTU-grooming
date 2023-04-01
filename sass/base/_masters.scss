@@ -1,0 +1,40 @@
+.masters {
+    margin-top: 126px;
+  
+    h1 {
+      text-align: center;
+    }
+  
+    margin-bottom: 26px;
+  }
+  
+  .masters__row {
+    height: 566px;
+    position: relative;
+    margin-top: 27px;
+    //width: 936px;
+    display: flex;
+    //align-items: center;
+    //justify-content: space-between;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+  
+  .master__text {
+    width: 296px;
+    position: absolute;
+    top: 97px;
+    right: 47px;
+  
+    p {
+      text-align: center;
+    }
+  }
+  
+  .ours__masters__img {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 592px;
+  }

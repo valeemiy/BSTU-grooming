@@ -1,0 +1,54 @@
+.price {
+    margin-top: 54px;
+    position: relative;
+  
+    h1 {
+      text-align: center;
+    }
+  }
+  
+  .price__button__row {
+    right: 46px;
+    position: absolute;
+    margin-top: -30px;
+  }
+  
+  .price__blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 27px;
+    margin-top: 73px;
+    padding-left: 37px;
+  }
+  
+  .price__block {
+    background-color: $color_fon; //Вот тут проблемка с фоном
+    width: 217px;
+    height: 441px;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+  
+  .icon__text__price {
+    align-items: center;
+  
+    img {
+      width: 80px;
+      padding: 32px 69px 35px 69px;
+    }
+  
+    h2 {
+      text-align: center;
+    }
+  }
+  
+  .price__column {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 14px 0px 14px;
+    margin-top: 34px;
+  }
+  
+  .price__price {
+    color: $color_dark_pink;
+  }
