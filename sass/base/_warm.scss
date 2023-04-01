@@ -1,0 +1,36 @@
+.warm {
+    margin-top: 74px;
+  }
+  
+  .warm__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    h1 {
+      color: $color_font;
+    }
+  }
+  
+  .warm__text {
+    width: 926px;
+    text-align: center;
+    margin-top: 32px;
+  
+  }
+  
+  .warm__text::after {
+    content: "";
+    width: 358px;
+    background-color: black;
+    height: 1px;
+    display: block;
+    margin: 27px auto 0;
+  }
+  
+  .warm__img__row {
+    display: flex;
+    justify-content: space-between;
+    width: 771px;
+    margin-top: 41px;
+  }
