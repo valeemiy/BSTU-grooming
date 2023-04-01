@@ -1,0 +1,39 @@
+.header {
+    background-color: $backgroundcolor_pink;
+  }
+  
+  .header__text__img {
+    display: flex;
+    margin-top: 56px;
+  }
+  
+  .header__text {
+    text-align: center;
+    margin-top: 84px;
+  
+    h1 {
+      margin-left: 24px;
+    }
+  }
+  
+  .text__2 {
+    margin-top: 36px;
+    width: 379px;
+    height: 83px;
+    margin-left: 63px;
+  }
+  
+  .header__button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 415px;
+    margin-left: 76px;
+  }
+  
+  .header__lineal {
+    background-color: black;
+    width: 64px;
+    height: 1px;
+  }

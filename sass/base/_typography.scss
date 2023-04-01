@@ -1,0 +1,83 @@
+h1 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 63px;
+  }
+  
+  h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  
+  h3 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  
+  h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  h5 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  p {
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+  }
+  
+  .button {
+    background-color: $color_button;
+    width: 201px;
+    height: 47px;
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    border-radius: 4px;
+    transition: color 0.1s solid;
+  
+    &:hover {
+      color: white;
+    }
+  }
+  
+  .button__mini {
+    width: 136px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 11px;
+    background-color: $backgroundcolor_pink;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    transition: all 0.1s ease-in;
+  
+    &:active {
+      border: 1px solid $color_fon;
+      background-color: $color_fon;
+    }
+  }

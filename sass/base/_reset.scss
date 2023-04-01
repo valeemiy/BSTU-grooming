@@ -1,0 +1,42 @@
+.container {
+    max-width: 1024px;
+    margin: 0px auto;
+  }
+  
+  //Шрифт основной
+  .body {
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  
+    background-color: $backgroundcolor_pink;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  input,
+  button {
+    border: none;
+  }
+  
+  button,
+  input[type="submit"] {
+    cursor: pointer;
+    background: none;
+  }
+  
+  input:focus,
+  button:focus {
+    outline: none;
+  }

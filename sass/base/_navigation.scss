@@ -1,0 +1,30 @@
+.navigation {
+    padding-left: 20px;
+    width: 984px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .navigation__menu {
+  
+    ul {
+      display: flex;
+      justify-content: space-between;
+  
+    }
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+  
+      &:hover {
+        color: $color_dark_pink;
+      }
+    }
+  
+    li {
+      margin-right: 20px;
+    }
+  }

@@ -1,0 +1,193 @@
+.container {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+.body {
+  font-family: "IM FELL English";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(246, 233, 233);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+}
+
+button,
+input[type=submit] {
+  cursor: pointer;
+  background: none;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+h1 {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 63px;
+}
+
+h2 {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+h3 {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h5 {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+p {
+  font-family: "IM FELL English";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+}
+
+.button {
+  background-color: rgba(249, 119, 119, 0.67);
+  width: 201px;
+  height: 47px;
+  font-family: "IM FELL English";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  border-radius: 4px;
+  transition: color 0.1s solid;
+}
+.button:hover {
+  color: white;
+}
+
+.button__mini {
+  width: 136px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 11px;
+  background-color: rgb(246, 233, 233);
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  transition: all 0.1s ease-in;
+}
+.button__mini:active {
+  border: 1px solid rgb(217, 217, 217);
+  background-color: rgb(217, 217, 217);
+}
+
+.header {
+  background-color: rgb(246, 233, 233);
+}
+
+.header__text__img {
+  display: flex;
+  margin-top: 56px;
+}
+
+.header__text {
+  text-align: center;
+  margin-top: 84px;
+}
+.header__text h1 {
+  margin-left: 24px;
+}
+
+.text__2 {
+  margin-top: 36px;
+  width: 379px;
+  height: 83px;
+  margin-left: 63px;
+}
+
+.header__button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 415px;
+  margin-left: 76px;
+}
+
+.header__lineal {
+  background-color: black;
+  width: 64px;
+  height: 1px;
+}
+
+.navigation {
+  padding-left: 20px;
+  width: 984px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.navigation__menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation__menu a {
+  text-decoration: none;
+  color: inherit;
+}
+.navigation__menu a:hover {
+  color: rgb(144, 64, 64);
+}
+.navigation__menu li {
+  margin-right: 20px;
+}
+
+/*@import "./sass/base/warm";
+@import "./sass/base/services";
+@import "./sass/base/masters";
+@import "./sass/base/video";
+@import "./sass/base/price";
+@import "./sass/base/contacts";
+@import "./sass/base/basement";*//*# sourceMappingURL=style.css.map */
