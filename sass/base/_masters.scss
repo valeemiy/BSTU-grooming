@@ -1,40 +1,323 @@
-.masters {
-    margin-top: 126px;
+// .masters {
+//     margin-top: 126px;
   
-    h1 {
-      text-align: center;
-    }
+//     h1 {
+//       text-align: center;
+//     }
   
-    margin-bottom: 26px;
-  }
+//     margin-bottom: 26px;
+//   }
   
-  .masters__row {
-    height: 566px;
-    position: relative;
-    margin-top: 27px;
-    //width: 936px;
-    display: flex;
-    //align-items: center;
-    //justify-content: space-between;
-    padding-left: 34px;
-    padding-right: 34px;
-  }
+//   .masters__row {
+//     height: 566px;
+//     position: relative;
+//     margin-top: 27px;
+//     //width: 936px;
+//     display: flex;
+//     //align-items: center;
+//     //justify-content: space-between;
+//     padding-left: 34px;
+//     padding-right: 34px;
+//   }
   
-  .master__text {
-    width: 296px;
-    position: absolute;
-    top: 97px;
-    right: 47px;
+//   .master__text {
+//     width: 296px;
+//     position: absolute;
+//     top: 97px;
+//     right: 47px;
   
-    p {
-      text-align: center;
-    }
-  }
+//     p {
+//       text-align: center;
+//     }
+//   }
   
-  .ours__masters__img {
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 592px;
-  }
+//   .ours__masters__img {
+//     position: absolute;
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 20px;
+//     width: 592px;
+//   }
+
+  
+// .masters__buttons {
+//   display: flex;
+//   justify-content: center;
+//   gap: 40px;
+//   margin: 30px;
+//   .button {
+//     max-width: 200px;
+//     height: 30px;
+//     border-radius: 10px;
+    
+//     &:hover {
+//       cursor: pointer;
+//     }
+//   }
+// }
+
+// .button_color {
+//   background-color: #ff0ff0;
+// }
+
+// .photo__image {
+//   display: flex;
+//   justify-content: space-between;
+  
+//   img {
+//     height: 200px;
+//   }
+// }
+
+// .master__pic{
+//   width: 184px;
+//   height: 272px;
+// }
+
+// .photo {
+//   max-width: 768px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   background-color: #007000;
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .container {
+//   width: 100%;
+//   padding: 30px;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 20px;
+// }
+
+// .photo__buttons {
+//   display: flex;
+//   justify-content: center;
+//   gap: 40px;
+  
+//   .button {
+//     width: 90px;
+//     height: 30px;
+//     border-radius: 10px;
+    
+//     &:hover {
+//       cursor: pointer;
+//     }
+//   }
+// }
+
+// .button_color {
+//   background-color: #ff0ff0;
+// }
+
+// .photo__slider {
+//   position: relative;
+//   height: 200px;
+//   overflow-x: hidden;
+// }
+
+// .slider {
+//   display: flex;
+//   width: 300%;
+//   position: absolute;
+//   left: -100%;
+//   ransition-duration: 3s;
+// }
+
+// .photo__image {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 30px;
+//   width: 100%;
+//   justify-content: space-around;
+  
+//   img {
+//     height: 200px;
+//   }
+// }
+
+// .arrows {
+//   display: flex;
+//   position: absolute;
+//   z-index: 2;
+//   width: 100%;
+//   justify-content: space-between;
+//   top: calc(50% - 10px);
+//   opacity: 0;
+//   transition: all 2s;
+
+//   .slider:hover + &, &:hover {
+//     opacity: 1;
+//   }
+// }
+
+// .move_left {
+//   animation-name: move_left;
+//   animation-duration: 2s;
+// }
+
+// @keyframes move_left { 
+//   0% { 
+//     left: -100%;
+//   } 
+//   100% {
+//     left: -200%;
+//   } 
+// }
+
+// .move_right {
+//   animation-name: move_right;
+//   animation-duration: 2s;
+// }
+
+// @keyframes move_right { 
+//   0% { 
+//     left: -100%;
+//   } 
+//   100% {
+//     left: 0%;
+//   } 
+// }
+
+
+
+
+// .portfolio {
+//   position: relative;
+//   max-width: 936px;
+//   margin: 0 auto;
+//   box-sizing: border-box;
+// }
+
+// .portfolio__title {
+//   font-size: 48px;
+//   line-height: 63px;
+//   color: #000;
+//   margin: 0 auto;
+//   margin-top: 50px;
+//   text-align: center;
+// }
+
+// .portfolio__buttons {
+//   margin: 0 auto;
+//   padding-top: 35px;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   flex-wrap: wrap;
+//   max-width: 936px;
+//   gap: 10px;
+// }
+// .portfolio__button {
+//   width: 220px;
+//   height: 50px;
+//   font-size: 28px;
+//   line-height: 34px;
+//   padding: 10px 0 12px 0;
+//   text-align: center;
+//   background-color: #7b7676;
+//   border-radius: 20px;
+//   color: #000;
+// }
+// .portfolio__button_active {
+//   color: #423f3f;
+//   background-color: #83ba14;
+// }
+// .container_1 {
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 0 44px;
+// }
+// .portfolio__slider {
+    
+//     position: relative;
+//     overflow: hidden;
+//     height: 566px;
+// }
+
+// .slider {
+//   display: flex;
+//   width: 300%;
+//   position: absolute;
+//   left: -100%;
+//   transition-duration: 3s;
+// }
+// .portfolio__cards {
+//   display: flex;
+//   justify-content: space-between;
+//   flex-wrap: wrap;
+//   width: 588px;
+//   padding: 0px;
+//   margin: 34px auto 0 auto;
+//   gap: 18px 22px; //изменил 25 на 15px 
+//   transition: 2s all ease-in;
+// }
+// .slider_left {
+
+// }
+// .portfolio__img {
+//   width: 184px;
+//   height: 272px;
+// }
+
+// .arrows {
+//   display: flex;
+//   position: absolute;
+//   z-index: 50;
+//   width: 100%;
+//   margin: 0 auto;
+//   justify-content: space-between;
+//   top: calc(50% - 39px);
+//   opacity: 0;
+//   padding: 60px;
+//   transition: all 2s;
+//   .slider:hover + &,
+//   &:hover {
+//       opacity: 1;
+//   }
+// }
+
+// .move_left {
+//   animation-name: move_left;
+//   animation-duration: 2s;
+// }
+
+// @keyframes move_left {
+//   0% {
+//       left: -100%;
+//   }
+//   100% {
+//       left: -200%;
+//   }
+// }
+
+
+// .move_right {
+//   animation-name: move_right;
+//   animation-duration: 2s;
+// }
+
+// @keyframes move_right {
+//   0% {
+//       left: -100%;
+//   }
+//   100% {
+//       left: 0%;
+//   }
+// }
+// .button_slider_left,
+// .button_slider_right{
+//   width: 50px;
+//   height: 50px;
+//   // background-color: rgb(194, 204, 216);
+//   &:hover {
+//       color: #ffd3a0;
+//       filter: invert(0.6) sepia(1);
+//   }
+// }
+// .portfolio__text{
+//   font-size: 32px;
+//   line-height: 40px;
+//   max-width: 296px;
+// }

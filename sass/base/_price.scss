@@ -18,7 +18,7 @@
     justify-content: space-between;
     gap: 27px;
     margin-top: 73px;
-    padding-left: 37px;
+    padding: 0 37px;
   }
   
   .price__block {
@@ -51,4 +51,8 @@
   
   .price__price {
     color: $color_dark_pink;
+  }
+
+  .price__color{
+    background-color: $backgroundcolor_pink;
   }

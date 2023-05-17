@@ -4,7 +4,8 @@
 //base
 @import "./sass/base/reset";
 @import "./sass/base/typography";
-@import "./sass/base/header";
+@import "./sass/abstracts/mixin";
+
 @import "./sass/base/navigation";
 @import "./sass/base/warm";
 @import "./sass/base/services";
@@ -13,3 +14,7 @@
 @import "./sass/base/price";
 @import "./sass/base/contacts";
 @import "./sass/base/basement";
+@import "./sass/base/burger";
+@import "./sass/base/portfolio";
+
+@import "./sass/base/header";
