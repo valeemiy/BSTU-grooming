@@ -2,11 +2,11 @@
 const shops = {
   shop_1: [
     './Assets/jpg/Olga.jpg',
-    "./Assets/jpg/Anna.jpg",
-    "./Assets/jpg/Konstantin.jpg",
-    "./Assets/jpg/Anastasiya.jpg",
-    "./Assets/jpg/Evgenia.jpg",
-    "./Assets/jpg/Maria.jpg",
+    './Assets/jpg/Anna.jpg',
+    './Assets/jpg/Konstantin.jpg',
+    './Assets/jpg/Anastasiya.jpg',
+    './Assets/jpg/Evgenia.jpg',
+    './Assets/jpg/Maria.jpg',
   ],
   shop_2: [
     "../Assets/jpg/more.jpg",
